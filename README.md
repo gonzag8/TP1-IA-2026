@@ -10,10 +10,11 @@ El objetivo es diseñar, entrenar y evaluar un modelo de **red neuronal multicap
 
 ### 1. Crear el entorno virtual
 
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
+| | Windows | Linux / macOS |
+|---|---|---|
+| Crear | `python -m venv venv` | `python3 -m venv venv` |
+| Activar | `venv\Scripts\activate` | `source venv/bin/activate` |
+| Desactivar | `deactivate` | `deactivate` |
 
 ### 2. Instalar dependencias
 
